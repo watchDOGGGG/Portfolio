@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.App{
+  background: #000000ab;
+  height: 100vh;
+}
+.intro{
+  height: 100vh;
+  color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.intro .eff{
+  font-weight: 400;
+  color: rgb(159, 158, 158);
+  line-height: 2;
+}
+.eff1{
+  font-weight: 200;
+}
+.about{
+  height: 100vh;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+.about_me_right img{
+  height: 400px;
+  object-fit: cover;
+}
+.expl_me{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+.skills{
+  height: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+.experience{
+  /* height: 100vh; */
+  font-family: 'Montserrat', sans-serif;
+}
+.projects{
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+.projects .inner{
+  height:100%;
+  overflow: auto;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/296/454/non_2x/team-work-writing-graffiti-design-on-a-white-background-free-vector.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+.footer{
+  height: 10vh;
+  font-family: 'Montserrat', sans-serif;
+}
