@@ -14,14 +14,14 @@ export default function Intro() {
             your continued organizational success.</span>
 
           <div className="flex w-100 center pa2 justify-between mt2">
-            <span className="blue pointer bb b--blue-10">About</span>
-            <span className="red pointer bb b--red-10">Skills</span>
-            <span className="yellow pointer bb b--yellow-10">Experience</span>
-            <span className="green pointer bb b--green-10">Projects</span>
+            <span className="pointer"><a href="#section2" className="blue link bb b--blue-10">About</a></span>
+            <span className="pointer"><a href="#section3" className="red link  bb b--red-10">Skills</a></span>
+            <span className="pointer"><a href="#section4" className="yellow link bb b--yellow-10">Experience</a></span>
+            <span className="pointer"><a href="#section5" className="green link bb b--green-10">Projects</a></span>
           </div>
 
           <div className="center br-pill pa2 tc bg-white black mt5 pointer f3">
-            <span>Hire me!</span>
+            <span><a href="https://www.linkedin.com/in/prince-randy-761839170/" target="_blank" className="link black">Hire me!</a></span>
           </div>
 
 
