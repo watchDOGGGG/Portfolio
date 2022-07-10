@@ -4,9 +4,9 @@ import Resume from '../Assest/file/Prince_Emmanuel_Resume.pdf'
 
 export default function Intro() {
   return (
-    <div className="flex flex-column justify-around intro">
-      <div className="flex w-80 center">
-        <div className="flex flex-column w-70 flex-wrap">
+    <div className="flex flex-column justify-around intro pa2">
+      <div className="flex w-80 center content">
+        <div className="flex flex-column flex-wrap">
           <span className="ttu f1">HI, Prince Randy here</span>
           <span className="ttu f3 eff1">Full stack Web, Mobile Developer</span>
           <span className="ttl f5 eff w-80">I believe my collaboration,

@@ -14,7 +14,7 @@ export default function Experience() {
             <span>Where i have worked <span className="gray f6">4+ years of professional experience</span></span>
         </div>
 
-          <div className="center w-70 bg-blue">
+          <div className="center w-70 bg-blue content">
 
               <Timeline position="alternate">
                 {

@@ -11,10 +11,11 @@ import Skills from './skills'
 export default function Layout() {
   return (
     <div className="App">
+      <div className="header"></div>
         <div id="section1">
             <Intro/>
         </div>
-        <div id="section2">
+        <div id="section2" className="mt5">
           <About/>
         </div>
         <div id="section3">

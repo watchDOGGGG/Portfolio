@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.cf68d4ec.css",
-    "main.js": "/static/js/main.e8fc698a.js",
+    "main.js": "/static/js/main.134d8a19.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/About.jpg": "/static/media/About.fc5fff1757b3cf3ded77.jpg",
     "static/media/tailor.png": "/static/media/tailor.ee272cc977a5b4bce442.png",
     "static/media/Prince_Emmanuel_Resume.pdf": "/static/media/Prince_Emmanuel_Resume.58defdcd3436c07d9f66.pdf",
     "index.html": "/index.html",
     "main.cf68d4ec.css.map": "/static/css/main.cf68d4ec.css.map",
-    "main.e8fc698a.js.map": "/static/js/main.e8fc698a.js.map",
+    "main.134d8a19.js.map": "/static/js/main.134d8a19.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf68d4ec.css",
-    "static/js/main.e8fc698a.js"
+    "static/js/main.134d8a19.js"
   ]
 }

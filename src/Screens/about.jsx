@@ -6,7 +6,7 @@ import { Icon } from '@iconify/react';
 export default function About() {
   return (
     <div className="about flex flex-column w-100 justify-center">
-      <div className="flex flex-row w-80 center justify-between">
+      <div className="flex flex-row w-80 center justify-between content">
         <div className="about_content w-50 flex-wrap">
           <div>
             <span className="lh-copy">{about_me}</span>
