@@ -18,7 +18,7 @@ export default function Index({children}) {
               <Link to={"/"}><Icon icon="cib:about-me" width={30}/></Link>
               <Link to={"/projects"}><Icon icon="bi:window-stack" width={30}/></Link>
               <Link to={"/resume"}><Icon icon="ant-design:file-done-outlined" width={30}/></Link>
-              <Link to={"#"}><Icon icon="bi:phone" width={30}/></Link>
+              <Link to={"/contact"}><Icon icon="bi:phone" width={30}/></Link>
             </div>
           </div>
         </div>

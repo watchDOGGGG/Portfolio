@@ -23,10 +23,10 @@ export default function Intro() {
                       </div>
                       <div className="bg-white w-full p-4">
                         <div className="flex flex-row justify-end">
-                                <Link className="mx-2" to="/github"><Icon icon="ant-design:github-outlined" width={30} color={"#000000"}/></Link>
-                                <Link className="mx-2" to="/github"><Icon icon="entypo-social:linkedin-with-circle" width={30} color={"#000000"}/></Link>
-                                <Link className="mx-2" to="/github"><Icon icon="akar-icons:medium-fill" width={30} color={"#000000"}/></Link>
-                                <Link className="mx-2" to="/github"><Icon icon="cib:facebook-f" width={30} color={"#000000"}/></Link>
+                                <Link className="mx-2" to="//https://github.com/watchDOGGGG"><Icon icon="ant-design:github-outlined" width={30} color={"#000000"}/></Link>
+                                <Link className="mx-2" to="//https://www.linkedin.com/in/prince-randy-761839170/"><Icon icon="entypo-social:linkedin-with-circle" width={30} color={"#000000"}/></Link>
+                                <Link className="mx-2" to="//https://medium.com/@odurandyjnr"><Icon icon="akar-icons:medium-fill" width={30} color={"#000000"}/></Link>
+                                <Link className="mx-2" to="//https://www.facebook.com/prince.randy.528"><Icon icon="cib:facebook-f" width={30} color={"#000000"}/></Link>
                         </div>
                       </div>
                   </div>
@@ -36,7 +36,7 @@ export default function Intro() {
                               <span className="font-extrabold text-6xl">Hello</span>
                               <div className="my-6 flex flex-row justify-start">
                                 <a href={Resume} target="_blank" className=""><button className="button-color border border-blue-900 bg-black text-white">Resume</button></a>
-                                <button className="mx-12 button-color border border-black">Projects</button>
+                               <Link to={"/projects"}> <button className="mx-12 button-color border border-black">Projects</button></Link>
                               </div>
                               <div className="text-light">
                                 <span className="leading-6">Hello i'm prince emmanuel a software developer with over 7 years of experience working with Python, Node.Js, React etc.</span>

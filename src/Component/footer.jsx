@@ -1,5 +1,6 @@
 import { Icon } from '@iconify/react'
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -12,9 +13,9 @@ export default function Footer() {
           </div>
           <div className="ttj mx-4">
             <span className="db font-light text-center">Follow me</span>
-            <span className="font-light  text-center text-sm text-center">
+            <Link to="//https://github.com/watchDOGGGG" className="font-light  text-center text-sm text-center">
               <Icon icon="ant-design:github-outlined" width={30} color={"#000000"} />
-            </span>
+            </Link>
           </div>
         </div>
       </div>
