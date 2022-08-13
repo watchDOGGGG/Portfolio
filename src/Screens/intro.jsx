@@ -2,7 +2,7 @@ import React from 'react'
 import Index from '../Container/index'
 import {Link} from 'react-router-dom'
 import { Icon } from '@iconify/react';
-import Resume from '../Assest/file/prince_Emmanuel_Resume.PDF'
+import Resume from '../assest/file/prince_Emmanuel_Resume.PDF'
 
 
 export default function Intro() {
