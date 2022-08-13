@@ -1,7 +1,7 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Projects from '../Screens/projects'
-import Intro from '../Screens/Intro'
+import Intro from '../Screens/Intro.jsx'
 import Resume from '../Screens/resume'
 
 export default function Layout() {
