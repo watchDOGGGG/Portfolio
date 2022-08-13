@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf68d4ec.css",
-    "main.js": "/static/js/main.134d8a19.js",
+    "main.css": "/static/css/main.0c8e15c3.css",
+    "main.js": "/static/js/main.5330f5bd.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/About.jpg": "/static/media/About.fc5fff1757b3cf3ded77.jpg",
-    "static/media/tailor.png": "/static/media/tailor.ee272cc977a5b4bce442.png",
-    "static/media/Prince_Emmanuel_Resume.pdf": "/static/media/Prince_Emmanuel_Resume.58defdcd3436c07d9f66.pdf",
+    "static/media/78392uh28u392u3u23.webp": "/static/media/78392uh28u392u3u23.ab3c8bccd8e9374b4f8b.webp",
+    "static/media/720932-38h2hfbuf82382993.png": "/static/media/720932-38h2hfbuf82382993.157d7afaee7a15ebd648.png",
+    "static/media/Prince_Emmanuel_Resume.PDF": "/static/media/Prince_Emmanuel_Resume.c39cedb257bf4977c943.PDF",
     "index.html": "/index.html",
-    "main.cf68d4ec.css.map": "/static/css/main.cf68d4ec.css.map",
-    "main.134d8a19.js.map": "/static/js/main.134d8a19.js.map",
+    "main.0c8e15c3.css.map": "/static/css/main.0c8e15c3.css.map",
+    "main.5330f5bd.js.map": "/static/js/main.5330f5bd.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf68d4ec.css",
-    "static/js/main.134d8a19.js"
+    "static/css/main.0c8e15c3.css",
+    "static/js/main.5330f5bd.js"
   ]
 }
