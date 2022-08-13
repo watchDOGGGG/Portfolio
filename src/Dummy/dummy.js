@@ -1,4 +1,6 @@
-import TailorGang from '../Assest/Image/tailor.png'
+import palscheckIMg from '../Assest/Image/78392uh28u392u3u23.webp'
+import zigatextImg from '../Assest/Image/720932-38h2hfbuf82382993.png'
+
 export const about_me = `
 Hello! My name is Prince Emmanuel (Randy) and I enjoy creating things that live on the internet. My interest in mobile development started back in 2014 when I decided to try hackimg stuff on the internet got an advise that before i can hack or break anything i have to learn how its been built!, 
 this process lead me to start building innovative stuff and instead of breaking things i learnt to make them stronger.
@@ -12,11 +14,9 @@ Building the world using the only way i know - programming!`
 export const stacks = [
     { name: 'Javascript (ES6+)',image:''},
     { name: 'ReactJs',image:''},
-    { name: 'React-Native',image:''},
-    { name: 'Flutter',image:''},
+    { name: 'python',image:''},
     { name: 'Node.js',image:''},
     { name: 'Typescript',image:''},
-    { name: 'Redux',image:''},
     { name: 'MongoDB',image:''},
     { name: 'GraphQL',image:''},
     { name: 'Mysql',image:''},
@@ -25,8 +25,6 @@ export const stacks = [
     { name: 'Travis CI',image:''},
     { name: 'Github',image:''},
     { name: 'Docker',image:''},
-    { name: 'Kafka',image:''},
-    { name: 'RabbitMq',image:''},
     { name: 'Kubernetes',image:''},
     
 ]
@@ -34,80 +32,102 @@ export const stacks = [
 export const work_experience = [
     {
         company: 'Nugitech',
-        type: 'fulltime',
-        date: `2020 - ${Date.today}`,
-        about: 'Nugi Technologies is a customer-centric ICT solutions giant in Africa with a craving for digital transformation and technological innovations that cuts across all spheres of life, delivered with impeccable strategies. ',
+        type: 'full stack developer',
+        date: `2022 - current`,
         link: 'https://nugitech.com/#/',
         image: '',
         location: 'Nigeria - Lagos',
-        major_work: "Worked as a full stack developer designing web, mobile applications and developing API's using advance stacks including React, React-Native NodeJS"
+        duty: [
+           `Wrote a python code using pandas and matplot to create statistics of data
+           from database, this help our team monitor the size of our database and scale
+           for a larger amount of data and keep track of where are application is mostly
+           used.`,
+           `
+            Developed endpoints using NodeJs, express, worked with NosqlDB like
+            mongodb and redis to store data and also cache, help improving app
+            performance, set up Docker container to run our application and used tools like
+            travisCI for CICD.
+           `,
+
+           `
+           Worked with the frontend team to build good and quality user experience web
+            applications.
+           `,
+           `Improved code quality of other engineers by building a firm-wide library of
+           commonly used objects to make testing easier and more frequent.
+           Developed unit test cases for testing and automation.`,
+           `Built an audio encoder in javascript to convert stream-able audio files into avv
+           file format, using ffmpeg and send that data to the client using socket.io and
+           peerjs server in realtime.
+           `
+        ]
+    },
+    {
+        company: 'MounClub',
+        type: 'Backend developer',
+        date: `2020 - 2021`,
+        link: 'https://moun.club/#/',
+        image: '',
+        location: 'Estonia - Remote',
+        duty: [
+           `Collaborated with multidisciplinary team of designers, developers and system
+           administrators.`,
+           `Managed efficient SQL queries and data transport.`,
+
+           `Built flexible, reusable code and libraries for future use.`,
+           `Wrote unit tests to evaluate high code coverage.
+           `,
+           `Designed client-side and server-side architecture and implemented cloud based back end solutions.`,
+           `Resolved scalability problems and addressed security concerns.`
+        ]
     },
     {
         company: 'Kemonai',
-        type: 'fulltime',
+        type: 'full stack developer',
         date: `2017 - 2020`,
-        about: 'Kemonai is an Information Technology company that specializes in software development and electronic gadget designing & programming. ',
-        link: 'https://kemonai.com/',
+        link: 'https://zigatext.com',
         image: '',
-        location: 'Nigeria - Calabar',
-        major_work: "Worked as a Mobile developer to develope mobile applications for android and IOS, test and deploy to both APP store and Play store."
+        location: 'Nigeria -  calabar, cross river state',
+        duty: [
+           `Contributed ideas and suggestions in team meetings and delivered updates on
+           deadlines, designs and enhancements.`,
+           `Consulted with engineering team members to determine system loads and
+           develop improvement plans.`,
+
+           `Used NodeJS, ORM and SQL/No-SQL to develop and manage databases.
+           `,
+           `Wrote a microservice, using NodeJs, Kafka and mongoDb to handle service
+           request of data to the client side increasing server performance by 80%.`,
+
+           `Worked with React to build nice and responsive web screens and used Redux
+            as a state management system to manage states and distribute data across
+            screens, maintaining clean and reusable codes.
+           `,
+           `Wrote automated test, unit test using jest and supertest for both client and
+           server side.
+           `
+
+        ]
     },
+
 ]
 
 export const Myprojects = [
-    {
-        name:'BossCab Mechanic',
-        type: 'mobile',
-        link: [{type:'web',link:'',type:'mobile', link:'https://play.google.com/store/apps/details?id=com.bosscab.mechanic'}],
-        github: '',
-        image: 'https://play-lh.googleusercontent.com/lmic0Ph8n0-EHOaSwsHsd9EDcoliGYGfO9cRjRRJ_Mm56sxMks2M8nXhyPCFPKjfwQ=w240-h480-rw',
-        stacks: 'React-Native, Firebase, Redux, GoogleAPI',
-        about: 'An online Taxi and bus hailing system within Nigeria and across Africa. Bosscab makes transportation seamless'
-    },
+   
     {
         name:'Zigatext',
         type: 'mobile / web',
-        link: [{type:'web',link:'https://zigatext.com/',type:'mobile', link:'https://play.google.com/store/apps/details?id=com.zigatext'}],
-        github: '',
-        image: 'https://play-lh.googleusercontent.com/g0KMsoLfIWG3tp74V0o1wzDNr7N44ypo27qLOZOSYSwrARxZ1rFTIhEKbmN36gx5rM0=w240-h480-rw',
+        link: 'https://zigatext.com',
+        image: zigatextImg,
         stacks: 'Flutter, Vue, Golang, Docker, Aws',
         about: 'Zigatext is a cloud messaging platform for mass SMS, phonebook contact services, auto pilot birthday messaging and lots of other exciting functionality.'
     },
     {
-        name:'BossCab',
-        type: 'mobile',
-        link: [{type:'mobile', link:'https://play.google.com/store/apps/details?id=com.nugitech.bosscab.rider'}],
-        github: '',
-        image: 'https://play-lh.googleusercontent.com/KGkusvzlJ9lrPGgHZSaNwOt6SqiJhpq52kGFeCeQy0NLcyhdjiYJ1ICFWj6dzahv10Y=w240-h480-rw',
-        stacks: 'React-Native, Firebase, Docker, Aws, Redux, GoogleAPI',
-        about: 'An online Taxi and bus hailing system within Nigeria and across Africa. Bosscab makes transportation seamless'
+        name:'Palscheck',
+        type: 'mobile / web',
+        link: 'https://palscheck.com',
+        image: palscheckIMg,
+        stacks: 'React, Redux, Node.Js, Aws, Flutter, Python',
+        about: 'Palscheck is a social network for content creators ranking users based on most watch contents while they earn from their fans by subscriptions.'
     },
-    {
-        name:'TailorGang',
-        type: 'web',
-        link: [{type:'web',link:'https://tailorgang.io/'}],
-        github: '',
-        image: TailorGang,
-        stacks: 'React, NodeJs, Redux, Express',
-        about: 'Tailorgang is an app used to kickstart your Fashion and Design career, grow your skills, meet top designers, learn at your own pace and time.'
-    },
-    {
-        name:'Spotify-clone',
-        type: 'web',
-        link: [{type:'web',link:'https://github.com/watchDOGGGG/spotify_clone'}],
-        github: 'https://github.com/watchDOGGGG/spotify_clone',
-        image: 'https://play-lh.googleusercontent.com/UrY7BAZ-XfXGpfkeWg0zCCeo-7ras4DCoRalC_WXXWTK9q5b0Iw7B0YQMsVxZaNB7DM=w240-h480-rw',
-        stacks: 'React, Redux, Tailwin, Spotify Authenticator',
-        about: ''
-    },
-    {
-        name:'Twitter-clone',
-        type: 'web',
-        link: [{type:'web',link:'https://github.com/watchDOGGGG/twitter_clone'}],
-        github: 'https://github.com/watchDOGGGG/twitter_clone',
-        image: 'https://www.seekpng.com/png/detail/266-2660165_twitter-logo-rounded-corners.png',
-        stacks: 'React, Redux, material UI',
-        about: ''
-    },
-
 ]

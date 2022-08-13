@@ -1,14 +1,23 @@
+import { Icon } from '@iconify/react'
 import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="flex flex-column justify-center footer fw9 tc f5 gray lh-copy">
-        <span>
-            Developed and Designed by Prince Randy
-        </span>
-        <span className="db fw4 lh-copy">
-            When a developer speaks a program is made!
-        </span>
+    <div className="flex flex-col justify-end footer fw9 tc f5 gray lh-copy w-full">
+      <div className="text-right w-full">
+        <div className="flex flex-row justify-end">
+          <div className="ttj">
+            <span className="db font-light text-center">Email</span>
+            <span className="font-light  text-center text-sm text-center">Odurandyjnr@gmail.com</span>
+          </div>
+          <div className="ttj mx-4">
+            <span className="db font-light text-center">Follow me</span>
+            <span className="font-light  text-center text-sm text-center">
+              <Icon icon="ant-design:github-outlined" width={30} color={"#000000"} />
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }

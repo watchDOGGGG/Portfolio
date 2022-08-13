@@ -1,4 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+}
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -19,116 +26,21 @@
   background: #555;
 }
 
-.header{
-  height: 10vh;
-  background: #000000ab;
+.text-shadow{
+  text-shadow: 2px 2px 3px #948e8e;
 }
 
-.intro{
-  color: #ffff;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  background: #000000ab;
-}
-.intro .eff{
-  font-weight: 400;
-  color: rgb(159, 158, 158);
-  line-height: 2;
-}
-.eff1{
-  font-weight: 200;
-}
-.about{
-  color: #000;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-}
-.about_me_right img{
-  height: 400px;
-  object-fit: cover;
-}
-.expl_me{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-  font-size: 40px;
-}
-.skills{
-  height: auto;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 900;
-}
-.experience{
-  /* height: 100vh; */
-  font-family: 'Montserrat', sans-serif;
-}
-.projects{
-  height: 100vh;
-  font-family: 'Montserrat', sans-serif;
-}
-.projects .inner{
-
-  overflow: auto;
-  background-image: url('https://static.vecteezy.com/system/resources/previews/004/296/454/non_2x/team-work-writing-graffiti-design-on-a-white-background-free-vector.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; 
+.profile-img img{
+  width: 225.13px;
+  height: 233.93px;
+  border-radius: 112.565px;
 }
 
-.footer{
-  height: 10vh;
-  font-family: 'Montserrat', sans-serif;
+.button-color{
+  width: 120.01px;
+  height: 30.17px;
+  border-radius: 20.1287px;
 }
-
-/* Media query */
-@media (min-width: 481px) and (max-width: 767px) {
-  /* 
-    Device = Low Resolution Tablets, Mobiles (Landscape)
-    Screen = 481px to 767px
-  */
-  .intro .content{
-    width:100%;
-  }
-  .about .content{
-    width:100%;
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 10px;
-  }
- .about .about_content{
-  width:100%;
- }
- .about .about_me_right{
-  width:100%;
- }
- .experience .content{
-  width:100%;
- }
- .projects .inner{
-  width:100%;
- }
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .intro .content{
-    width:100%;
-    
-  }
-  .about .content{
-    width:100%;
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 10px;
-  }
-  .about .about_content{
-    width:100%;
-   }
-  .about .about_me_right{
-    width:100%;
-   }
-   .experience .content{
-    width:100%;
-   }
-   .projects .inner{
-    width:100%;
-   }
+.container{
+  /* color:white */
 }

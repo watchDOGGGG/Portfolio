@@ -1,5 +1,5 @@
 import './App.css';
-import Layout from './Screens';
+import Layout from './Navigations/navigate';
 
 function App() {
   return (
