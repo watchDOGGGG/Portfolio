@@ -1,5 +1,5 @@
-import palscheckIMg from '../assest/Image/78392uh28u392u3u23.webp'
-import zigatextImg from '../assest/Image/720932-38h2hfbuf82382993.png'
+import palscheckIMg from '../assest/image/78392uh28u392u3u23.webp'
+import zigatextImg from '../assest/image/720932-38h2hfbuf82382993.png'
 
 export const about_me = `
 Hello! My name is Prince Emmanuel (Randy) and I enjoy creating things that live on the internet. My interest in mobile development started back in 2014 when I decided to try hackimg stuff on the internet got an advise that before i can hack or break anything i have to learn how its been built!, 
