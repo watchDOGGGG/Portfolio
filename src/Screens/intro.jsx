@@ -18,7 +18,7 @@ export default function Intro() {
                           <span className="text-2xl font-bold capitalize">Prince Emmanuel</span>
                           <div className="my-24"></div>
                           <div className="text-2xl">
-                              <span>Software Engineer</span>
+                              <span>Full stack / DevOps Engineer</span>
                           </div>
                       </div>
                       <div className="bg-white w-full p-4">

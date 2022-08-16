@@ -10,7 +10,7 @@ export default function Index({children}) {
         <div className="flex flex-row h-full center w-3/5">
           <div className="flex flex-col justify-center w-3/5">
             <div className="flex flex-row justify-start mx-5">
-              <span className="font-bold text-2xl text-shadow">Prince Emmanuel</span>&nbsp;<span className="text-xl"> / Full stack developer</span>
+              <span className="font-bold text-2xl text-shadow">Prince Emmanuel</span>
             </div>
           </div>
           <div className="flex flex-col justify-center w-2/5">
