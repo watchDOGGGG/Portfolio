@@ -12,7 +12,7 @@ export default function Intro() {
               <div className="flex flex-row justify-around mx-8">
                   <div className="w-1/2 flex flex-col justify-center shadow-2xl bg-black text-white">
                       <div className="profile-img center p-2">
-                          <img src={"https://www.kindpng.com/picc/m/191-1914498_watch-dogs-2-playstation-4-logo-watch-dogs.png"} />
+                          <img src={"https://i.im.ge/2022/08/16/O1Xts4.IMG-0917.jpg"} />
                       </div>
                       <div className="text-center my-12">
                           <span className="text-2xl font-bold capitalize">Prince Emmanuel</span>
